@@ -10,6 +10,13 @@
 
 body {
     background-color: #363636;	
+    font-family: Candara, 'Hind Siliguri', sans-serif;
+	font-size:14pt;
+	text-align:center;
+	color: #a3a3a3;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
 }
 
 /*link farben*/	
