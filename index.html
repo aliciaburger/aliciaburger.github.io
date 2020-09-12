@@ -1,27 +1,648 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<title>Userpage Alicia Burger</title>
-<link rel="stylesheet" type="text/css" href="userpage.css">
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Alicia Burger Portfolio</title>
+         <link rel="stylesheet" type="text/css" href="website1.css">
+      <script src="website.js"></script>
+    </head>
+    <body>
+    	
 
-</head>
-<body>
-	<h1>Hey There!</h1>
-	<p>
-		It's Alicia Burger, a german media conception Student.<br> if
-		you're interestet in, you can view my <a
-			href="https://github.com/aliciaburger"> GitHub profile, </a><br>
-		or have a look at my <a
-			href="https://www.instagram.com/alicia.burger_/"> instagaram
-			profile</a>.
-	</p>
-	<p>here are the projects of EIA2:</p>
-	<a href="https://aliciaburger.github.io/EIA2/Aufgabe1/a1.html">Aufgabe
-		0, 16.03.17</a>
+        <!--HEADER-->
+        <header>
+
+		<div id="navfeld">
+			<a href="#navfeld">
+				<div id="burger">
+
+					<div class="burgerIcon"></div>
+					<div class="burgerIcon"></div>
+					<div class="burgerIcon"></div>
+
+				</div>
+			</a>
+			<div>
+				<nav id="klappmenue">
+					<ul>
+						<li><a id="home" href="#bildHintergrund">HOME</a></li>
+						<li><a id="portfoliokl" href="#ankerPortfolio">PORTFOLIO</a>
+						</li>
+						<li><a id="aboutkl" href="#ankerAbout">ABOUT</a></li>
+
+						<li><a id="contactkl" href="#contactAnker">CONTACT</a></li>
+						<li><a id="abkuerzelHome" href="#bildHintergrund"> <img
+								id="abkuerzelKl" src="Bilder/Abkuerzel.png"
+								onmouseover="mouseover" /> <img id="abkuerzelKlB"
+								src="Bilder/AbkuerzelB.png" onmouseout="mouseout" />
+						</a></li>
+					</ul>
+
+
+				</nav>
+
+				<div id="boxMenueGr">
+
+					<nav id="menueGr">
+						<ul>
+							<li><a id="homeGr" href="#bildHintergrund">HOME&nbsp;</a></li>
+							<li><a id="portfolioklGr" href="#ankerPortfolio">PORTFOLIO&nbsp;</a>
+
+							</li>
+							<li id="abkMargTop"><a href="#bildHintergrund"> <img
+									id="abkuerzelGrB" src="Bilder/AbkuerzelB.png" /> <img
+									id="abkuerzelGr" src="Bilder/Abkuerzel.png" />
+							</a></li>
+							<li><a id="aboutGr" href="#ankerAbout">&nbsp;ABOUT&nbsp;</a>
+							</li>
+							<li><a id="contactGr" href="#contactAnker">CONTACT</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+			</div>
+		</div>
 
 
 
+	</header>
+<!-- Header -->		
+		<main>
+						
+			
+				<div id="bildHintergrund">
+					<!--Schriftzug als Bild, da Font weder in CSS ,noch ähnliche bie Google Fonts online vorhanden ist.-->
+						<img src="Bilder/AliciaBurger.png" alt="Alicia Burger" id="aliciaburger" /> 	
+						<div id="ankerPortfolio" class="anker"> </div>										
+				</div>	
+				
+				
+				<section id="uebersSect">						
+						<div id="ueberBox">
+								<p class="ueberschriftGr" id="uebersPortf">PORTFOLIO</p>
+								<p class="ueberschriftKl"> 							
+								<a href="#ankerProjects">PROJEKTE  </a>|
+								<a href="#ankerPhotos">  FOTOGRAFIE</a>														 
+								</p>
+						</div>
+					<div id="ankerProjects" class="anker"> </div>
+				</section>	
+				
+<!-- Projekte -->				
+				<section id="projSect">
+		<div class="shadow">
+			<p class="ueberschriftGr" id="projects">PROJEKTE</p>
+			
+			<p class="semesterZahl">außerhalb der Hochschule</p>
+			
+			</div>
+		
+		<!-- 		
+		Recruting Videos
+		Kreativspots
+		Unternehmens Videos
+		Impressionen Spot
+		Infographics
+		Messe Videos
+		
+		Websites
+		
+		
+		 -->
+		 <!--Unternehmensvideo-Box -->		
+		
+				<a href="unternehmensvideo.html">
+					<div class="projectbox">
+			 			<img src="Bilder/Papa und ich.PNG" alt="Bild Schreinerei" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>Unternehmensvideo</p>
+						</div>		
+					</div>
+				</a>	
+				
+			<!-- Recruting-Box -->		
+		
+				<a href="recruting.html">
+					<div class="projectbox">
+			 			<img src="Bilder/MPS/ims_1.PNG" alt="Bild Junge mit Spielzeugauto" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>Recruting Videos</p>
+						</div>		
+					</div>
+				</a>
+				
+			<!--Infographic-Box -->		
+		
+				<a href="ideenentwicklung.html">
+					<div class="projectbox">
+			 			<img src="Bilder/MPS/karakaya_1.PNG" alt="Bild 2D animation comic style" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>Infographic</p>
+						</div>		
+					</div>
+				</a>	
+			<!--Impressions-Box -->		
+		
+				<a href="impression.html">
+					<div class="projectbox">
+			 			<img src="Bilder/MPS/fitness_1.PNG" alt="Bild Fitneststutio" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>Impressionen</p>
+						</div>		
+					</div>
+				</a>	
+			<!--Kreativ-Box -->		
+		
+				<a href="kreativ.html">
+					<div class="projectbox">
+			 			<img src="Bilder/MPS/elektro_1.PNG" alt="Bild Handwerker im Anzug" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>kreative Werbespots</p>
+						</div>		
+					</div>
+				</a>	
+			<!--Messe-Box -->		
+		
+				<a href="messe.html">
+					<div class="projectbox">
+			 			<img src="Bilder/MPS/messe_1.PNG" alt="Bild Start Freiburg-Marathon" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>Messe Videos</p>
+						</div>		
+					</div>
+				</a>	
+			<!--Website-Box -->		
+		
+				<a href="website.html">
+					<div class="projectbox">
+			 			<img src="Bilder/MPS/website_1.PNG" alt="Screenshot Website MPS" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>Websites</p>
+						</div>		
+					</div>
+				</a>	
+			
+		<!-- 		-------------------------------------- -->
+		<div class="shadow">
+			
+			<p class="semesterZahl">Hochschulprojekte</p>
+			
+			</div>
+			
+		<!-- 		-------------------------------------- -->
+	<section id="projSect">	
+				
+		<!-- Ideen-Box -->		
+		
+				<a href="ideenentwicklung.html">
+					<div class="projectbox">
+			 			<img src="Bilder/ideenentwicklung.PNG" alt="Bild Sonnenuntergang über dem Schwarzwald" 	class="boxQuer">
+			 			 <div class="boxText">
+							<p>kreativer Kurzfilm</p>
+						</div>		
+					</div>
+				</a>
+				
+		<!-- OER-Box -->		
+		
+				<a href="oer.html">
+					<div class="projectbox">
+			 			<img src="Bilder/oer_1.PNG" alt="Standbild Infographic" class="boxQuer">
+			 			 <div class="boxText">
+							<p>E-Learning Infographic</p>
+						</div>		
+					</div>
+				</a>	
+				
+		<!-- VFX-Box -->		
+		
+				<a href="vfx.html">
+					<div class="projectbox">
+			 			<img src="Bilder/vfx/vfx_1.PNG" alt="Standbild Mädchen vor Spiegel" class="boxQuer">
+			 			 <div class="boxText">
+							<p>VFX-Projekt</p>
+						</div>		
+					</div>
+				</a>
+				
+		<!-- awarenes-Box -->		
+		
+				<a href="awarenes.html">
+					<div class="projectbox">
+			 			<img src="Bilder/awarenes4.png" alt="Standbild Smartphonenutzung beim Autofahren" class="boxQuer">
+			 			 <div class="boxText">
+							<p>Awarenes Kampagne</p>
+						</div>		
+					</div>
+				</a>
+				
+		<!-- Typo-Box -->		
+		
+				<a href="typografie.html">
+					<div class="projectbox">
+			 			<img src="Bilder/typo/typo_1.PNG" alt="Bild einer neuen Schriftart" class="boxQuer">
+			 			 <div class="boxText">
+							<p>Sammlung von Typografie Projekten</p>
+						</div>		
+					</div>
+				</a>	
+				
+		<!--chatbot-Box -->
+				<a href="chatbot.html">
+					<div class="projectbox">
+	 					<img src="Bilder/cb/cb_1.PNG" alt="Bild Chatbot" class="boxQuer">  					 
+	 					 <div class="boxText">
+							<p> Chatbot für das Fakultätssekreteriat </p>
+						</div>		
+					</div>
+				</a>
+									
+		<!-- UXBox -->		
+		
+				<a href="ux.html">
+					<div class="projectbox">
+			 			<img src="Bilder/UX/ux1.PNG" alt="Bild 3D modeling" class="boxHoch">
+			 			 <div class="boxText">
+							<p>Website Konzeption einer Fiktiven Traumstadt</p>
+						</div>		
+					</div>
+				</a>
+				
+		<!-- CGBox -->		
+		
+				<a href="cg.html">
+					<div class="projectbox">
+			 			<img src="Bilder/cg/CG1.png" alt="Bild 3D modeling" class="boxHoch">
+			 			 <div class="boxText">
+							<p>3D Moddellierungen und Animation mit Blender</p>
+						</div>		
+					</div>
+				</a>
+													
+		<!-- fürstenberg-Box -->		
+		
+				<a href="fuerst.html">
+					<div class="projectbox">
+			 			<img src="Bilder/dose.png" alt="Bild neue Bierdose" class="boxHoch">
+			 			 <div class="boxText">
+							<p>Konzeption einer neuen "Fürstenberg" Kampagne</p>
+						</div>		
+					</div>
+				</a>
+				
+		<!-- Aufzug-Box -->		
+		
+				<a href="aufzug.html">
+					<div class="projectbox">
+			 			<img src="Bilder/interfacedesign_1.PNG" alt="Bild Onlineshop" class="boxQuer">
+			 			 <div class="boxText">
+							<p>Interface Design interaktiver Aufzug</p>
+						</div>		
+					</div>
+				</a>		
+								
+		<!-- AVBox -->
+				<a href="av.html">
+					<div class="projectbox">
+			 			<img src="Bilder/av.PNG" alt="Bildausschnitt Video" class="boxQuer">
+			 			 <div class="boxText">
+							<p>Kurzfilm "Trigger"</p>
+						</div>		
+					</div>
+				</a>
+				
+		<!-- Bee-Box -->		
+		
+				<a href="bee.html">
+					<div class="projectbox">
+			 			<img src="Bilder/bee.PNG" alt="Standbild Canvas Animation" class="boxQuer">
+			 			 <div class="boxText">
+							<p>Canvas Animation</p>
+						</div>		
+					</div>
+				</a>
+								
+		<!-- GeschenkefressenBox -->	
+			
+				<a href="shortgame.html">
+					<div class="projectbox">
+			 			<img src="Bilder/geschenkefressen.PNG" alt="Bildausschnitt shortgame" class="boxHoch">
+			 			 <div class="boxText">
+							<p>shortgame</p>
+						</div>		
+					</div>
+				</a>
+			
+		<!-- plakat-Box -->		
+		
+				<a href="plakat.html">
+					<div class="projectbox">
+			 			<img src="Bilder/Hochschulball plakat 1.PNG" alt="Bild Plakat" class="boxHoch">
+			 			 <div class="boxText">
+							<p>Plakat-Konzept Hochschulball</p>
+						</div>		
+					</div>
+				</a>	
+					
+										
+							
+	</section>	
 
-</body>
+
+<!-- 		-------------------------------------- -->
+			<p id="ankerPhotos">&nbsp;</p>
+	</section>
+				
+				
+				<div id="photoSect">
+				
+					
+					<p class="ueberschriftGr" id="photos">PHOTOGRAPHY</p>
+					
+
+
+								<div class="boxQuerSl">
+									<div class="rahmenbox ">
+									  <div class="img-comp-img">
+									    <img src="Bilder/photos/Photo_13.PNG" class="sliderbilder">
+									  </div>
+									  <div class="img-comp-img img-comp-overlay">
+									    <img src="Bilder/photos/Photo_12.PNG" class="sliderbilder">
+									  </div>
+									</div>
+								</div> 
+								
+								<div class="boxQuerSl">
+									<div class="rahmenbox ">
+									  <div class="img-comp-img">
+									    <img src="Bilder/photos/Photo_9.PNG" class="sliderbilder">
+									  </div>
+									  <div class="img-comp-img img-comp-overlay">
+									    <img src="Bilder/photos/Photo_10.PNG" class="sliderbilder">
+									  </div>
+									</div>
+								</div> 					
+								<div class="boxQuerSl">
+									<div class="rahmenbox ">
+									  <div class="img-comp-img">
+									    <img src="Bilder/photos/Photo_16.PNG" class="sliderbilder">
+									  </div>
+									  <div class="img-comp-img img-comp-overlay">
+									    <img src="Bilder/photos/Photo_3.PNG" class="sliderbilder">
+									  </div>
+									</div>
+								</div> 
+								
+								
+								<div>
+										
+											<img src="Bilder/photos/Photo_1.png" class="boxQuerPh" />
+											
+								</div>	 									
+								<div>
+											<img src="Bilder/photos/Photo_2.PNG" class="boxQuerPh" />
+											
+											
+								</div>	
+								<div>
+										
+											<img src="Bilder/photos/Photo_5.PNG" class="boxQuerPh" />
+											
+								</div>	
+																				
+							
+								<div>
+										
+											<img src="Bilder/photos/Photo_6.PNG" class="boxQuerPh" />
+											
+								</div>	
+								<div>
+										
+											<img src="Bilder/photos/Photo_7.PNG" class="boxQuerPh" />
+											
+								</div>	
+								<div>
+										
+											<img src="Bilder/photos/Photo_8.PNG" class="boxQuerPh" />
+											
+								</div>				
+								<div>
+										
+											<img src="Bilder/photos/Photo_4.PNG" class="boxQuerPh" />
+											
+								</div>	
+								<div>
+										
+											<img src="Bilder/photos/Photo_14.PNG" class="boxHochPh" />
+											
+								</div>	
+								<div>
+										
+											<img src="Bilder/photos/Photo_15.PNG" class="boxHochPh" />
+											
+								</div>	
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+													
+
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+<!-- 		-------------------------------------- -->					
+					
+					
+					<p id="ankerAbout"> &nbsp;</p>	
+				</div>
+				
+				<section id="aboutSect">
+					
+					<p class="ueberschriftGr" id="about">ABOUT</p>
+					<br />
+					<div>
+						<img src="Bilder/ich.png" id="ich"/>
+						<div id="aboutDiv">
+							Hi, I‘m Alicia Burger, a 
+							<a href="http://www.hs-furtwangen.de/studiengaenge/fakultaet/digitale-medien/medienkonzeption-ba.html">
+					media-conception
+					</a>
+					 Student based in the Black Forest, in Germany.
+							For more information  
+							<a class="downloadlink" href="Bilder/grafischer lebenslauf_4.pdf" >
+							have a look on my CV 
+							</a> 
+							or 
+							<a class="downloadlink" href="Bilder/grafischer lebenslauf_4.pdf" download>
+							download it here <br>
+							</a> 
+							Feel free to contact me.
+						</div>
+
+					
+					
+				</div>	
+				</section>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			<p id="contactAnker"> &nbsp;</p>		
+		</main>	
+		
+<!--FOOTER-->
+
+		<footer >
+			<p class="ueberschriftGr" id="contact">CONTACT</p>
+			<div id="footerbox">
+
+
+			<div id="eMail" class="footerText"><img src="Bilder/mail.png" id="mailIcon" /> aliciaburger@t-online.de</div>
+			<div id="insta" class="footerText">
+				<a href="https://www.instagram.com/alicia.burger_/">
+					<img src="Bilder/instaIcon.png" id="istaIcon" />
+					 alicia.burger_     </a>
+			</div>
+			<div id="facebook"class="footerText" >
+				<a href="https://www.facebook.com/alicia.burger.97">
+					<img src="Bilder/facebookIcon.png" id="facebookIcon" />
+					 Alicia Burger</a>
+			</div>
+			<div id="myWebsite">
+			This Website was programmed by myself			
+			</div>
+			<div>
+				<a href="http://www.hs-furtwangen.de/studiengaenge/fakultaet/digitale-medien/medienkonzeption-ba.html">
+					<img src="Bilder/hfu.png" id="hfuIcon" />
+					</a>
+			</div>	
+		
+			</div>
+		</footer>
+		
+		
+		
+ 		<script> 
+ 		/*picture slider*/
+ 		function initComparisons() {
+ 			  var x, i;
+ 			  /*find all elements with an "overlay" class:*/
+ 			  x = document.getElementsByClassName("img-comp-overlay");
+ 			  for (i = 0; i < x.length; i++) {
+ 			    /*once for each "overlay" element:
+ 			    pass the "overlay" element as a parameter when executing the compareImages function:*/
+ 			    compareImages(x[i]);
+ 			  }
+ 			  function compareImages(img) {
+ 			    var slider, img, clicked = 0, w, h;
+ 			    /*get the width and height of the img element*/
+ 			    w = img.offsetWidth;
+ 			    h = img.offsetHeight;
+ 			    /*set the width of the img element to 50%:*/
+ 			    img.style.width = (w / 2) + "px";
+ 			    /*create slider:*/
+ 			    slider = document.createElement("DIV");
+ 			    slider.setAttribute("class", "img-comp-slider");
+ 			    /*insert slider*/
+ 			    img.parentElement.insertBefore(slider, img);
+ 			    /*position the slider in the middle:*/
+ 			    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+ 			    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+ 			    /*execute a function when the mouse button is pressed:*/
+ 			    slider.addEventListener("mousedown", slideReady);
+ 			    /*and another function when the mouse button is released:*/
+ 			    window.addEventListener("mouseup", slideFinish);
+ 			    /*or touched (for touch screens:*/
+ 			    slider.addEventListener("ontouchstart", slideReady);
+ 			    /*and released (for touch screens:*/
+ 			    window.addEventListener("ontouchend", slideFinish);
+ 			    
+ 			    
+ 			    
+ 			    
+ 			    function slideReady(e) {
+ 			    	console.log("getoucht");
+ 			      /*prevent any other actions that may occur when moving over the image:*/
+ 			      e.preventDefault();
+ 			      /*the slider is now clicked and ready to move:*/
+ 			      clicked = 1;
+ 			      /*execute a function when the slider is moved:*/
+ 			      window.addEventListener("mousemove", slideMove);
+ 			      window.addEventListener("ontouchmove", slideMove);
+ 			    }
+ 			    function slideFinish() {
+ 			      /*the slider is no longer clicked:*/
+ 			      clicked = 0;
+ 			    }
+ 			    function slideMove(e) {
+ 			      var pos;
+ 			      /*if the slider is no longer clicked, exit this function:*/
+ 			      if (clicked == 0) return false;
+ 			      /*get the cursor's x position:*/
+ 			      pos = getCursorPos(e)
+ 			      /*prevent the slider from being positioned outside the image:*/
+ 			      if (pos < 0) pos = 0;
+ 			      if (pos > w) pos = w;
+ 			      /*execute a function that will resize the overlay image according to the cursor:*/
+ 			      slide(pos);
+ 			    }
+ 			    function getCursorPos(e) {
+ 			      var a, x = 0;
+ 			      e = e || window.event;
+ 			      /*get the x positions of the image:*/
+ 			      a = img.getBoundingClientRect();
+ 			      /*calculate the cursor's x coordinate, relative to the image:*/
+ 			      x = e.pageX - a.left;
+ 			      /*consider any page scrolling:*/
+ 			      x = x - window.pageXOffset;
+ 			      return x;
+ 			    }
+ 			    function slide(x) {
+ 			      /*resize the image:*/
+ 			      img.style.width = x + "px";
+ 			      /*position the slider:*/
+ 			      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+ 			    }
+ 			  }
+ 			}
+
+ 		/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+ 		initComparisons();
+             
+ 	</script> 
+    </body>
 </html>
+
+
+
+
+
+
+
+
+
+
