@@ -417,14 +417,20 @@ li a img{
 	width:180px;
 	height:150px;
 }
-
+#cover{
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    width: 95%;
+}
 .boxQGr{
 	margin-left:20%;
-	margin-right:20%;
+
 	margin-bottom:10px;
 	margin-top:25px;
 	width:60%;
 }
+
 .boxHGr{
 	margin-left:30%;
 	margin-right:30%;
@@ -815,8 +821,6 @@ background-color: #282828;
 	float: left;
 	position: relative;
 	z-index:100;
-
-
 }
 .boxQuerPh{
 	width: 45%;
