@@ -37,7 +37,7 @@ header {
 }
 #navfeld{
 	position:fixed;
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.45);
 	width:100%;
 	z-index:200 ;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
@@ -195,15 +195,13 @@ li a img{
   vertical-align:middle;
 }
 .img-comp-slider {
-  position: absolute;
-  z-index:9;
-  cursor: ew-resize;
-  /*set the appearance of the slider:*/
-  width: 30px;
-  height: 30px;
-  background-color: #01c6ff;
-  opacity: 0.7;
-  border-radius: 50%;
+ 	position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    width: 5px;
+    height: 220px;
+    background-color: #ffffff;
+    opacity: 0.7;
 }
 .sliderbilder{
 	width:300px;
@@ -637,7 +635,15 @@ margin-bottom:2.5%;
 	margin-top:50px;
 	margin-bottom: 35px;
 }
-
+#slidertext{
+    font-family: Candara, 'Hind Siliguri', sans-serif;
+    font-size: 100%;
+    width:100%;
+    text-align: center;
+    color: #a3a3a3;
+    z-index:101;
+    float: left;
+}
 /*---------------------------------------------------------------------------------------------------*/
 /*FOOTER*/
 
@@ -893,6 +899,7 @@ background-color: #282828;
 	margin-top:80px;
 	
 }	
+
 	/*---------------------------------------*/
 	/*footer*/
 .footerText{	
@@ -920,9 +927,13 @@ background-color: #282828;
 	}
 	#boxMenueGr{
 		display: block;	
-		margin-left:15%;
+		margin-left:0;
 		margin-top:15px;
 		margin-bottom:15px;
+	}
+	#innerMenueGr{
+	    width: 80%;
+    	margin-left:15%;
 	}
 
 	#menueGr li {
@@ -930,7 +941,7 @@ background-color: #282828;
 		margin-left:2%;
 		font-family: Candara, 'Hind Siliguri', sans-serif;
 		color: #a3a3a3;
-		font-size:180%;
+		font-size:170%;
 		list-style-type: none;
 		}
 	#abkMargTop{
@@ -1018,13 +1029,16 @@ background-color: #282828;
 	font-size: 2em;
 }
 #ich{
-	width: 25%;
+	width: 44%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #aboutDiv{
-	width: 65%;
-	margin:2.5%;
-	font-size:150%;
-	text-align:center;
+	width: 50%;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 10px;
 
 }
 #myWebsite{
@@ -1058,13 +1072,15 @@ background-color: #282828;
 @media screen and (min-width:  1024px){
 
 /*Header*/
-#boxMenueGr{
-		margin-left:20%;
-	}
+
+#innerMenueGr {
+    width: 90%;
+    margin-left: 12%;
+}
 
 	#menueGr li {
 		margin-left:1%;
-		font-size:300%;
+		font-size:250%;
 		}
 		
 .anker{
@@ -1109,6 +1125,16 @@ background-color: #282828;
 .youtubeVideos{
 margin-left:30%;
 }
+#ich {
+    width: 35%;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+#aboutDiv {
+    width: 55%;
+    margin-left: 15px;
+    margin-top: 65px;
+}
 #ente {
 	clear:none;
 }
@@ -1116,7 +1142,9 @@ margin-left:30%;
 @media screen and (min-width:  1280px){
 
 	 */
-
+#innerMenueGr {
+    margin-left: 20%;
+}
 /*Main*/
 	.boxHOut{
 	height:450px;
@@ -1137,6 +1165,7 @@ margin-left:30%;
 .sliderbilder{
 	width:360px;
 	height:240px;
+	top:0;
 }
 	
 /* ----------------------------------------------------------------------- */
