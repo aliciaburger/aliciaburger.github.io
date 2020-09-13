@@ -265,6 +265,7 @@ li a img{
 }
 .boxQuer{
 	width: 100%;
+	margin: 15px;
 	margin-top:40px;
 	display: block;
     margin-left: auto;
@@ -808,7 +809,7 @@ background-color: #282828;
 }
 
 .boxHochPh{
-	width:30%;
+	width:35%;
 	margin:2.5%;
 	margin-top:40px;
 	float: left;
@@ -1001,9 +1002,7 @@ background-color: #282828;
 	
 }
 
-.boxHochPh{
-	width: 20.5%;
-}
+
 .boxQuerPh{
 	width: 42%;
 }
