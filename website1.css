@@ -27,8 +27,7 @@ a:visited {color: #a3a3a3;}
 a:hover {color: #01c6ff;}
 a:active {color: #01c6ff;}
 a{text-decoration: none;}
-.farbigerLink{color: #01c6ff;	
-}
+.unterstrichen{text-decoration:underline;}
 /*---------------------------------------------------------------------------------------------------*/
 	/*HEADER*/
 	
@@ -112,9 +111,7 @@ li a img{
 }
 #ankerPortfolio{position: relative;
 }
-.downloadlink{
-	color: #01c6ff !important;
-}
+
 
 /*---------------------------------------*/
 	/*Überschriften*/
@@ -236,7 +233,7 @@ li a img{
 
 }
 #projects{
-	margin-bottom:10px;
+	margin-bottom:50px;
 }
 .projectbox {
   position: relative;
@@ -502,8 +499,21 @@ li a img{
     box-shadow: 2px 2px 5px black;
     
 }
-#gameAbstand{
-	
+#ankerHochschulProjects{
+	float: left;
+    width: 100%;
+    height: 80px;
+}
+
+.sectionueberschrift{
+	 float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    color: #e4e4e4;
+    font-family: Century Gothic,'Questrial', sans-serif;
+    font-size: 1em;
 }
 
 /*.spalte1v3{
@@ -553,7 +563,7 @@ li a img{
 	display:box;
 	float:right;
 	margin-top:20px;
-	margin-bottom:40px;
+	margin-bottom:50px;
 	width:100%;
 	position: relative;
 	z-index: 110;
@@ -1005,7 +1015,9 @@ background-color: #282828;
 	width:33%;
 	
 }
-
+#ankerHochschulProjects{
+	height:150px;
+}
 
 .boxQuerPh{
 	width: 42%;
