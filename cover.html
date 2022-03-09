@@ -15,15 +15,61 @@
 							<span class="close cursor" >&times;</span>
 						</a>
 					
-						<div >
-							<div class="numbertext">1 / 1</div>
-							<img src="Bilder/cover_2.jpg" id="cover" />
-							<p class="boxTextZusatz">Design eines Fiktiven Buchcovers für den Kurs visuelle Kommunikation</p>							
+						<div class="anzahl fade">
+							<div class="numbertext">1 / 2</div>
+							<img src="Bilder/cover_2.jpg" class="cover" />
+							<p class="boxTextZusatz">Fertiges Design</p>
 						</div>
+						<div class="anzahl fade">
+							<div class="numbertext">2 / 2</div>
+							<img src="Bilder/moodboard.jpg" class="cover" />
+							<p class="boxTextZusatz">Moodboard</p>
 						</div>
+						<div class="boxText">
+							<p>Design eines Fiktiven Buchcovers für den Kurs visuelle Kommunikation</p>
+						</div>						
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<div class="punkt">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+			</div>
+					
 						
 						
-						
+		<script>		
+			// Slideshow 
+   		      
+           
+              var slideIndex = 1;
+             showSlides(slideIndex);
+
+             function plusSlides(n) {
+               showSlides(slideIndex += n);
+             }
+
+             function currentSlide(n) {
+               showSlides(slideIndex = n);
+             }
+
+             function showSlides(n) {
+               var i;
+               var slides = document.getElementsByClassName("anzahl");
+               var dots = document.getElementsByClassName("dot");
+               if (n > slides.length) {slideIndex = 1}    
+               if (n < 1) {slideIndex = slides.length}
+               for (i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "none";  
+               }
+               for (i = 0; i < dots.length; i++) {
+                   dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";  
+               dots[slideIndex-1].className += " active";
+             }      
+             
+        </script>						
 																								   												
             			
     </body>
